@@ -112,6 +112,55 @@
 			"venue": "Gonz",
 			"city": "Gouda",
 			"country": "Netherlands"
+		},
+		{ 
+			"date": "20/04/2024",
+			"event": "Record Store Day",
+			"venue": "Velvet",
+			"city": "Leiden",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "01/06/2024",
+			"event": "Voorprogramma Skroetbalg",
+			"venue": "Nobel",
+			"city": "Leiden",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "06/09/2024",
+			"event": "Friday Fight Night 2",
+			"venue": "Patronaat",
+			"city": "Haarlem",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "01/10/2024",
+			"event": "Leidens Ontzet",
+			"venue": "Praethuys (buitenplein)",
+			"city": "Leiden",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "02/11/2024",
+			"event": "Maxfest",
+			"venue": "Nobel",
+			"city": "Leiden",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "12/04/2025",
+			"event": "Skroetfest",
+			"venue": "Hedon",
+			"city": "Zwolle",
+			"country": "Netherlands"
+		},
+		{ 
+			"date": "28/06/2025",
+			"event": "Retox 2",
+			"venue": "Nobel",
+			"city": "Leiden",
+			"country": "Netherlands"
 		}
 
 	],
