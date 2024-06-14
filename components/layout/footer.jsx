@@ -21,7 +21,7 @@ export default function Footer() {
 
 
 	for (const gig of content.gigs) {
-		gig.hide || moment(gig.date, "DD-MM-YYYY").isBefore(moment()) ? playedGigs.push(gig) : gigsToGo.push(gig);
+		gig.hide || (moment(gig.date, "DD-MM-YYYY").isBefore(moment()) ? playedGigs.push(gig) : gigsToGo.push(gig));
 	}
 	
 	
