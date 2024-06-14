@@ -147,10 +147,10 @@ export default function Navbar() {
 				<li data-open={menuState} className={css.menuContent}>
 					<ul>
 						{
-						content.map( ({ url, title }, index) => {
+						content.map( ({ url, title, leaveSite }, index) => {
 							return (
 								<li key={index}>
-									<a target="_blank" href={url} rel="noopener noreferrer">{title}</a>
+									<a target={leaveSite ? "_blank" : "_self"} href={url} rel="noopener noreferrer">{title}</a>
 								</li>
 							)
 						})	

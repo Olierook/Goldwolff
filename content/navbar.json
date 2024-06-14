@@ -1,14 +1,22 @@
 [
 	{
 		"url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
-		"title": "Spotify"
+		"title": "Spotify",
+		"leaveSite": true
 	},
 	{
 		"url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ",
-		"title": "Youtube"
+		"title": "Youtube",
+		"leaveSite": true
 	},
 	{
 		"url": "https://www.instagram.com/goldwolffband",
-		"title": "Instagram"
+		"title": "Instagram",
+		"leaveSite": true
+	},
+	{
+		"url": "#gigs",
+		"title": "Gigs",
+		"leaveSite": false
 	}
 ]

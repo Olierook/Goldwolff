@@ -21,13 +21,13 @@ export default function Footer() {
 
 
 	for (const gig of content.gigs) {
-		moment(gig.date, "DD-MM-YYYY").isBefore(moment()) ? playedGigs.push(gig) : gigsToGo.push(gig);
+		gig.hide || moment(gig.date, "DD-MM-YYYY").isBefore(moment()) ? playedGigs.push(gig) : gigsToGo.push(gig);
 	}
 	
 	
 	
 	return (
-		<footer className={css.container}>
+		<footer id="gigs" className={css.container}>
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
 					<ul className={css.thanks} id="gigs">

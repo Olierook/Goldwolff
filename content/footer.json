@@ -153,14 +153,17 @@
 			"event": "Skroetfest",
 			"venue": "Hedon",
 			"city": "Zwolle",
-			"country": "Netherlands"
+			"country": "Netherlands",
+			"hide": true
+			
 		},
 		{ 
 			"date": "28/06/2025",
 			"event": "Retox 2",
 			"venue": "Nobel",
 			"city": "Leiden",
-			"country": "Netherlands"
+			"country": "Netherlands",
+			"hide": true
 		}
 
 	],
