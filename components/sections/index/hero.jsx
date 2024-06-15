@@ -1,19 +1,18 @@
-import { useState } 		from 'react';
-import { TypeAnimation } 	from 'react-type-animation';
+import { useState } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 
-import Section 		from '../../structure/section';
-import Container 	from '../../structure/container';
+import Container from '../../structure/container';
+import Section from '../../structure/section';
 
-import space		from '../../utils/spacing.util';
+import space from '../../utils/spacing.util';
 
-import Icon 		from '../../utils/icon.util'
 
-import HeroBg		from '../../blocks/hero.bg/bg-color-1';
+import HeroBg from '../../blocks/hero.bg/bg-color-1';
 
-import hero 		from '../../../styles/sections/index/hero.module.scss';
-import button 		from '../../../styles/blocks/button.module.scss';
+import button from '../../../styles/blocks/button.module.scss';
+import hero from '../../../styles/sections/index/hero.module.scss';
+import { useFirebaseValue } from "./../../../hooks/useFirebaseValue";
 
-import content		from '../../../content/index/hero.json'
 
 
 /**
@@ -27,52 +26,55 @@ import content		from '../../../content/index/hero.json'
  */
 
 export default function Hero() {
+	const [content] = useFirebaseValue("main", false);
+
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');
-	const buttonFn = (leaveSite, url) => leaveSite ? () => window.open(url, "_blank") : () => window.open(url, "_self") ;
+	const buttonFn = (leaveSite, url) => leaveSite ? () => window.open(url, "_blank") : () => window.open(url, "_self");
 	// document.getElementById(url).scrollIntoView()
 
 	return (
+		content &&
 		<Section classProp={`${hero.section}`}>
 			<Container spacing={'VerticalXXXL'}>
 				<TypeAnimation className={`${hero.preHeader}`}
 					sequence={[
-						content.intro.startDelay,
+						content?.intro?.startDelay,
 						() => { setTypingStatus('typing') },
-						content.intro.start,
-						() => {	setTypingStatus('typed') },
-						content.intro.deleteDelay,
-						() => {	setTypingStatus('deleting') },
-						content.intro.end,
-						() => {	setTypingStatus('deleted') },
-						content.intro.restartDelay,
+						content?.intro?.start,
+						() => { setTypingStatus('typed') },
+						content?.intro?.deleteDelay,
+						() => { setTypingStatus('deleting') },
+						content?.intro?.end,
+						() => { setTypingStatus('deleted') },
+						content?.intro?.restartDelay,
 					]}
-					speed={content.intro.speed}
-					deletionSpeed={content.intro.deletionSpeed}
-					wrapper={content.intro.wrapper}
+					speed={content?.intro?.speed}
+					deletionSpeed={content?.intro?.deletionSpeed}
+					wrapper={content?.intro?.wrapper}
 					repeat={Infinity}
 				/>
 				<section>
 					<h1 className={hero.header}>
-						{content.header.name}
-						</h1>
+						{content?.header?.name}
+					</h1>
 					<h1 className={`${hero.header} ${hero.primaryDim}`}>
-						{content.header.usp}
+						{content?.header?.usp}
 					</h1>
 				</section>
 				<section>
 					<p className={`${hero.primaryBright} subtitle ${space(["verticalLrg"])}`}>
-						{ content.paragraph }
-					</p>					
+						{content?.paragraph}
+					</p>
 				</section>
 				<section>
-					<button	className={`button ${button.primary}`}
-							onClick={buttonFn(content.buttons.primary.leaveSite, content.buttons.primary.url )} >
-						{content.buttons.primary.title}
+					<button className={`button ${button.primary}`}
+						onClick={buttonFn(content?.buttons?.primary?.leaveSite, content?.buttons?.primary?.url)} >
+						{content?.buttons?.primary?.title}
 					</button>
 					<button className={`button ${button.secondary} `}
-							onClick={buttonFn(content.buttons.secondary.leaveSite, content.buttons.secondary.url )} >
-							{content.buttons.secondary.title}
+						onClick={buttonFn(content?.buttons?.secondary?.leaveSite, content?.buttons?.secondary?.url)} >
+						{content?.buttons?.secondary?.title}
 					</button>
 				</section>
 			</Container>

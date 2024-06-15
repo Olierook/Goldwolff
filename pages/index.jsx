@@ -1,15 +1,10 @@
-import Hero 		from '../components/sections/index/hero'
-import Looking 		from '../components/sections/index/looking'
-import About 		from '../components/sections/index/about'
-import Technical 	from '../components/sections/index/technical'
-import Career 		from '../components/sections/index/career'
-import FeaturedProjects	from '../components/sections/projects/featured'
-import Head from "next/head";
+import Head from "next/head"
+import About from '../components/sections/index/about'
+import Hero from '../components/sections/index/hero'
+import FeaturedProjects from '../components/sections/projects/featured'
 
 
-import Color 		from '../components/utils/page.colors.util'
 
-import colors 		from '../content/index/_colors.json'
 
 //
 export default function HomePage() {
@@ -19,13 +14,11 @@ export default function HomePage() {
 			<Head>
 				<title>Goldwölff</title>
 			</Head>
-			<Color colors={colors} />
+			{/* <Color colors={colors} /> */}
 			<Hero />
 			<FeaturedProjects />
 			<About />
-			{/* <Looking /> */}
-			{/* <Technical /> */}
-			{/* <Career /> */}
+
 		</>
 	);
 }

@@ -1,8 +1,9 @@
-import { useState, useEffect, createContext, useContext } from "react";
+import { GoogleAuthProvider, getAuth, onAuthStateChanged, signInWithRedirect } from "firebase/auth";
+import { createContext, useContext, useEffect, useState } from "react";
 import { createFirebaseApp } from "../firebase/clientApp";
-import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signInWithRedirect } from "firebase/auth";
 
 export const UserContext = createContext();
+UserContext.displayName = "User";
 
 export default function UserContextComp({ children }) {
   const [user, setUser] = useState(null);
@@ -44,7 +45,7 @@ export const useUser = () => useContext(UserContext);
 
 export const signIn = () => {
   const provider = new GoogleAuthProvider();
-  provider.setCustomParameters({prompt: "select_account"});
+  provider.setCustomParameters({ prompt: "select_account" });
   const auth = getAuth();
   return signInWithRedirect(auth, provider);
 };

@@ -1,12 +1,12 @@
 // Core packages
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 
 // Font Awesome packages
 const { library, config } = require("@fortawesome/fontawesome-svg-core");
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { fas } from "@fortawesome/free-solid-svg-icons";
-import { far } from "@fortawesome/free-regular-svg-icons";
-import { fab } from "@fortawesome/free-brands-svg-icons";
 
 // Load icons into
 library.add(fas, far, fab);
@@ -30,13 +30,13 @@ library.add(fas, far, fab);
  */
 export default function Icon({ icon }) {
 
-  const [ iconType, iconKey ] = icon;
+  const [iconType, iconKey] = icon;
 
-  const [ stateIconKey, setIconKey ] = useState("spinner");
+  const [stateIconKey, setIconKey] = useState(iconKey);
 
-  useEffect( () => setIconKey( iconKey ), [ iconKey ] );
+  useEffect(() => setIconKey(iconKey), [iconKey]);
 
   return (
-    <FontAwesomeIcon icon={[ iconType, stateIconKey ]} />
+    <FontAwesomeIcon icon={[iconType, stateIconKey]} />
   );
 }
