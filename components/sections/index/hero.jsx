@@ -25,8 +25,8 @@ import { useFirebaseValue } from "./../../../hooks/useFirebaseValue";
  *   Load this module onto every component, and use predefined spacial classes to keep geometry consistent
  */
 
-export default function Hero() {
-	const [content] = useFirebaseValue("main", false);
+export default function Hero({ defaultContent }) {
+	const [content] = useFirebaseValue("main", defaultContent);
 
 
 	const [typingStatus, setTypingStatus] = useState('Initializing');

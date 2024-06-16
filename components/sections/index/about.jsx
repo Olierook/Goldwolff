@@ -21,8 +21,8 @@ import { useFirebaseValue } from "./../../../hooks/useFirebaseValue";
  * 
  * @returns {jsx} <About />
  */
-export default function About() {
-	const [content] = useFirebaseValue("about", false);
+export default function About({ defaultContent }) {
+	const [content] = useFirebaseValue("about", defaultContent);
 
 	return (
 		content &&

@@ -8,8 +8,8 @@ import Section from '../../structure/section';
 import { useFirebaseValue } from '../../../hooks/useFirebaseValue';
 import css from '../../../styles/sections/projects/featured.module.scss';
 
-export default function FeaturedProjects() {
-	const [content] = useFirebaseValue("news");
+export default function FeaturedProjects({ defaultContent }) {
+	const [content] = useFirebaseValue("news", defaultContent);
 
 
 	return (

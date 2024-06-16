@@ -6,9 +6,9 @@ import ThemeMode from '../utils/theme.util';
 import { useFirebaseValue } from '../../hooks/useFirebaseValue';
 import css from '../../styles/structure/navbar.module.scss';
 
-export default function Navbar() {
-	const [content] = useFirebaseValue("navbar");
-	const [name] = useFirebaseValue("name");
+export default function Navbar({ defaultNavbar, defaultName }) {
+	const [content] = useFirebaseValue("navbar", defaultNavbar);
+	const [name] = useFirebaseValue("name", defaultName);
 
 	const router = useRouter()
 

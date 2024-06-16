@@ -8,9 +8,9 @@ import { useFirebaseValue } from '../../hooks/useFirebaseValue';
 import css from '../../styles/structure/footer.module.scss';
 
 
-export default function Footer() {
-	const [gigs] = useFirebaseValue("gigs");
-	const [socials] = useFirebaseValue("social");
+export default function Footer({ defaultGigs, defaultSocial }) {
+	const [gigs] = useFirebaseValue("gigs", defaultGigs);
+	const [socials] = useFirebaseValue("social", defaultSocial);
 	const [playedGigs, setPlayedGigs] = useState([])
 	const [gigsToGo, setGigsToGo] = useState([])
 

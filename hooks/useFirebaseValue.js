@@ -12,7 +12,7 @@ export const useFirebaseValue = (string, defaultValue) => {
         onValue(thisRef, (e) => {
             const data = e.val();
             if (JSON.stringify(data) !== JSON.stringify(value)) {
-                console.log({ data, value });
+                // console.log({ data, value });
                 setValue(data);
             }
         });
