@@ -1,332 +1,359 @@
 {
+    "about": {
+        "bio": "Embark on a sonic adventure with our 5-piece heavy rock n' roll band. Fronted by the powerful vocals of Jan-Willem Kerpershoek, our lineup features Vincent de Bruijn and Lex van der Zwaal on guitars, Rinus Veldhuijzen holding down the bass, and the rhythmic pulse provided by Robbert Olierook on drums. Together, we deliver tunes that get you fucked and resonate with a rebellious 'Yeehaw,' creating a raw, rowdy, and unforgiving sound.",
+        "contact": "Hit us up on goldwolffband@gmail.com or +31648120785. Or reach out to us on social media or at one of our gigs"
+    },
+    "gigs": [
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "08/04/2023",
+            "event": "Interstellar Solar Festival  Leiden",
+            "venue": "Nobel"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "27/04/2023",
+            "event": "Kings Festival",
+            "venue": "Vi-Kings"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "29/04/2023",
+            "event": "Don't Mind The Fuzz Festival",
+            "venue": ""
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "25/05/2023",
+            "event": "Hondsdol Festival",
+            "venue": "Wibar"
+        },
+        {
+            "city": "Rotterdam",
+            "country": "Netherlands",
+            "date": "30/07/2023",
+            "event": "Riffsniffer presents Sasquatch",
+            "venue": "Baroeg"
+        },
+        {
+            "city": "Stompwijk",
+            "country": "Netherlands",
+            "date": "26/08/2023",
+            "event": "Koeienpop",
+            "venue": ""
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "22/09/2023",
+            "event": "Metal Experience Fest",
+            "venue": "Nobel"
+        },
+        {
+            "city": "Zoetermeer",
+            "country": "Netherlands",
+            "date": "30/09/2023",
+            "event": "Sasquatch Sessions",
+            "venue": "Mevrouw Latenstaan"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "03/10/2023",
+            "event": "3 October Festival",
+            "venue": "Vi-Kings"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "12/01/2024",
+            "event": "Friday Fight Night",
+            "venue": "Nobel"
+        },
+        {
+            "city": "Utrecht",
+            "country": "Netherlands",
+            "date": "27/01/2024",
+            "event": "",
+            "venue": "dBs"
+        },
+        {
+            "city": "Amsterdam",
+            "country": "Netherlands",
+            "date": "02/02/2024",
+            "event": "",
+            "venue": "The Cave"
+        },
+        {
+            "city": "Rotterdam",
+            "country": "Netherlands",
+            "date": "16/02/2024",
+            "event": "Metal Battle South Holland (Won)",
+            "venue": "Baroeg"
+        },
+        {
+            "city": "Rotterdam",
+            "country": "Netherlands",
+            "date": "22/03/2024",
+            "event": "Metal Battle Showdown West",
+            "venue": "Baroeg"
+        },
+        {
+            "city": "Coevorden",
+            "country": "Netherlands",
+            "date": "17/02/2024",
+            "event": "",
+            "venue": "Metal Front"
+        },
+        {
+            "city": "Gouda",
+            "country": "Netherlands",
+            "date": "19/04/2024",
+            "event": "",
+            "venue": "Studio Gonz"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "20/04/2024",
+            "event": "Record Store Day",
+            "venue": "Velvet"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "01/06/2024",
+            "event": "Voorprogramma Skroetbalg",
+            "venue": "Nobel"
+        },
+        {
+            "city": "Haarlem",
+            "country": "Netherlands",
+            "date": "06/09/2024",
+            "event": "Friday Fight Night 2",
+            "venue": "Patronaat"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "01/10/2024",
+            "event": "Leidens Ontzet",
+            "venue": "Praethuys (buitenplein)"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "02/11/2024",
+            "event": "Maxfest",
+            "venue": "Nobel"
+        },
+        {
+            "city": "Zwolle",
+            "country": "Netherlands",
+            "date": "12/04/2025",
+            "event": "Skroetfest",
+            "hide": true,
+            "venue": "Hedon"
+        },
+        {
+            "city": "Leiden",
+            "country": "Netherlands",
+            "date": "28/06/2025",
+            "event": "Retox 2",
+            "hide": true,
+            "venue": "Nobel"
+        }
+    ],
     "main": {
-        "intro": {
-            "start": "heavy rock 'n roll",
-            "end": "get fucked",
-            "speed": 60,
-            "deletionSpeed": 80,
-            "wrapper": "h2",
-            "startDelay": 1000,
-            "deleteDelay": 3000,
-            "restartDelay": 12000
+        "buttons": {
+            "primary": {
+                "leaveSite": true,
+                "title": "WhatsApp",
+                "url": "https://api.whatsapp.com/send?phone=31648120785"
+            },
+            "secondary": {
+                "leaveSite": false,
+                "title": "Gigs",
+                "url": "#gigs"
+            }
         },
         "header": {
             "name": "Goldwölff",
             "usp": "Rawer than your steak tartare"
         },
-        "paragraph": "Goldwölff is a heavy rock 'n roll band from Leiden. Come check us out and immerse yourself in the sonic fury that is Goldwölff. Book us. Get fucked nonetheless.",
-        "buttons": {
-            "primary": {
-                "title": "WhatsApp",
-                "url": "https://api.whatsapp.com/send?phone=31648120785",
-                "leaveSite": true
-            },
-            "secondary": {
-                "title": "Gigs",
-                "url": "#gigs",
-                "leaveSite": false
-            }
-        }
+        "intro": {
+            "deleteDelay": 3000,
+            "deletionSpeed": 80,
+            "end": "get fucked",
+            "restartDelay": 12000,
+            "speed": 60,
+            "start": "heavy rock 'n roll",
+            "startDelay": 1000,
+            "wrapper": "h2"
+        },
+        "paragraph": "Goldwölff is a heavy rock 'n roll band from Leiden. Come check us out and immerse yourself in the sonic fury that is Goldwölff. Book us. Get fucked nonetheless."
     },
-    "news": [
-        {
-            "project": "GET FUCKED",
-            "url": "https://open.spotify.com/album/6v1fP42dmAHD5xWl02tnpE?si=D986zLKmTt22a6orM3HHGQ",
-            "descriptionTitle": "Embark on a sonic journey with Goldwölff's latest EP, 'GET FUCKED'",
-            "description": " – a powerful fusion of heavy rock and roll that delivers an electrifying punch to your senses.",
-            "description2": "Brace yourself for an adrenaline-fueled experience that defines the raw essence of goldwölff's musical prowess.",
-            "description3": "Check it out now!",
-            "imageOptions": [
-                {
-                    "key": "size",
-                    "value": "large"
-                }
-            ],
-            "images": [
-                {
-                    "key": "mock-stack",
-                    "hover": "left",
-                    "h": "786",
-                    "w": "556",
-                    "url": "/img/ep/getfcked.jpg"
-                }
-            ],
-            "stack": [],
-            "cta": "Listen on Spotify"
-        },
-        {
-            "project": "Friday Fight Night",
-            "url": "https://www.boksen.nl/nieuws/friday-fight-night-in-poppodium-nobel-leiden-knokken-en-rocken",
-            "descriptionTitle": "An EP release in style, January 12th 2024 there were heavy hitters.",
-            "description": "Friday Fight Night is the kind of event you have never experienced before. A unique combo of boxing and music. All to celebrate our debut EP release",
-            "description2": "With the slogan: 'Heavy Matches, Heavy Music' it's loud and clear what to expect.",
-            "description3": "Do you want to read up on the experience, check out this article now!",
-            "imageOptions": [
-                {
-                    "key": "size",
-                    "value": "large"
-                }
-            ],
-            "images": [
-                {
-                    "key": "mock-stack",
-                    "hover": "right",
-                    "h": "786",
-                    "w": "556",
-                    "url": "/img/ffn/poster.png"
-                }
-            ],
-            "stack": [],
-            "cta": "Read the article now"
-        },
-        {
-            "project": "Black Leather",
-            "url": "https://www.youtube.com/watch?v=vTL10YHh5G0",
-            "repo": "Public",
-            "descriptionTitle": "Saddle up and join the wild ride with our heavy rock and roll anthem, 'Black Leather.'",
-            "description": "Watch as a rugged cowboy crosses paths with a daring woman, embarking on a heart-pounding adventure set against the backdrop of our thunderous sound.",
-            "imageOptions": [
-                {
-                    "key": "size",
-                    "value": "large"
-                }
-            ],
-            "images": [
-                {
-                    "key": "portfolio",
-                    "hover": "left",
-                    "h": "188",
-                    "w": "336",
-                    "url": "/img/black leather/thumb.png"
-                }
-            ],
-            "cta": "Watch on youtube now"
-        }
-    ],
     "name": "Goldwölff",
     "navbar": [
         {
-            "url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
+            "leaveSite": true,
+            "title": "Friday Fight Night",
+            "url": "https://fridayfightnight.nl/"
+        },
+        {
+            "leaveSite": true,
             "title": "Spotify",
-            "leaveSite": true
+            "url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT"
         },
         {
-            "url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ",
+            "leaveSite": true,
             "title": "Youtube",
-            "leaveSite": true
+            "url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ"
         },
         {
-            "url": "https://www.instagram.com/goldwolffband",
+            "leaveSite": true,
             "title": "Instagram",
-            "leaveSite": true
+            "url": "https://www.instagram.com/goldwolffband"
         },
         {
-            "url": "#gigs",
+            "leaveSite": false,
             "title": "Gigs",
-            "leaveSite": false
+            "url": "#gigs"
         }
     ],
-    "gigs": [
+    "news": [
         {
-            "date": "08/04/2023",
-            "event": "Interstellar Solar Festival  Leiden",
-            "venue": "Nobel",
-            "city": "Leiden",
-            "country": "Netherlands"
+            "cta": "Get tickets now",
+            "description": "Say goodbye to your typical Friday night at the bar, because on Friday, September 6, 2024, punches will fly! Boxing matches from gyms in Haarlem, Leiden, and surrounding areas, with guitar riffs blasting between bouts.",
+            "description2": "Friday Fight Night is a unique combo of boxing and music, organized by Bokshuis and Goldwölff.",
+            "description3": "With the slogan: 'Heavy Matches, Heavy Music,' it's clear what to expect.",
+            "descriptionTitle": "Bands and boxers hit hard.",
+            "imageOptions": [
+                {
+                    "key": "size",
+                    "value": "large"
+                }
+            ],
+            "images": [
+                {
+                    "h": "500",
+                    "hover": "right",
+                    "key": "mock-stack",
+                    "url": "/img/ffn/square.jpg",
+                    "w": "500"
+                }
+            ],
+            "project": "Friday Fight Night 2",
+            "url": "https://patronaat.nl/event/friday-fight-night-boxing-06-09-24/"
         },
         {
-            "date": "27/04/2023",
-            "event": "Kings Festival",
-            "venue": "Vi-Kings",
-            "city": "Leiden",
-            "country": "Netherlands"
+            "cta": "Listen on Spotify",
+            "description": " – a powerful fusion of heavy rock and roll that delivers an electrifying punch to your senses.",
+            "description2": "Brace yourself for an adrenaline-fueled experience that defines the raw essence of goldwölff's musical prowess.",
+            "description3": "Check it out now!",
+            "descriptionTitle": "Embark on a sonic journey with Goldwölff's latest EP, 'GET FUCKED'",
+            "imageOptions": [
+                {
+                    "key": "size",
+                    "value": "large"
+                }
+            ],
+            "images": [
+                {
+                    "h": "786",
+                    "hover": "left",
+                    "key": "mock-stack",
+                    "url": "/img/ep/getfcked.jpg",
+                    "w": "556"
+                }
+            ],
+            "project": "GET FUCKED",
+            "url": "https://open.spotify.com/album/6v1fP42dmAHD5xWl02tnpE?si=D986zLKmTt22a6orM3HHGQ"
         },
         {
-            "date": "29/04/2023",
-            "event": "Don't Mind The Fuzz Festival",
-            "venue": "",
-            "city": "Leiden",
-            "country": "Netherlands"
+            "cta": "Read the article now",
+            "description": "Friday Fight Night is the kind of event you have never experienced before. A unique combo of boxing and music. All to celebrate our debut EP release",
+            "description2": "With the slogan: 'Heavy Matches, Heavy Music' it's loud and clear what to expect.",
+            "description3": "Do you want to read up on the experience, check out this article now!",
+            "descriptionTitle": "An EP release in style, January 12th 2024 there were heavy hitters.",
+            "imageOptions": [
+                {
+                    "key": "size",
+                    "value": "large"
+                }
+            ],
+            "images": [
+                {
+                    "h": "786",
+                    "hover": "right",
+                    "key": "mock-stack",
+                    "url": "/img/ffn/poster.png",
+                    "w": "556"
+                }
+            ],
+            "project": "Friday Fight Night",
+            "url": "https://www.boksen.nl/nieuws/friday-fight-night-in-poppodium-nobel-leiden-knokken-en-rocken"
         },
         {
-            "date": "25/05/2023",
-            "event": "Hondsdol Festival",
-            "venue": "Wibar",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "30/07/2023",
-            "event": "Riffsniffer presents Sasquatch",
-            "venue": "Baroeg",
-            "city": "Rotterdam",
-            "country": "Netherlands"
-        },
-        {
-            "date": "26/08/2023",
-            "event": "Koeienpop",
-            "venue": "",
-            "city": "Stompwijk",
-            "country": "Netherlands"
-        },
-        {
-            "date": "22/09/2023",
-            "event": "Metal Experience Fest",
-            "venue": "Nobel",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "30/09/2023",
-            "event": "Sasquatch Sessions",
-            "venue": "Mevrouw Latenstaan",
-            "city": "Zoetermeer",
-            "country": "Netherlands"
-        },
-        {
-            "date": "03/10/2023",
-            "event": "3 October Festival",
-            "venue": "Vi-Kings",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "12/01/2024",
-            "event": "Friday Fight Night",
-            "venue": "Nobel",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "27/01/2024",
-            "event": "",
-            "venue": "dBs",
-            "city": "Utrecht",
-            "country": "Netherlands"
-        },
-        {
-            "date": "02/02/2024",
-            "event": "",
-            "venue": "The Cave",
-            "city": "Amsterdam",
-            "country": "Netherlands"
-        },
-        {
-            "date": "16/02/2024",
-            "event": "Metal Battle South Holland (Won)",
-            "venue": "Baroeg",
-            "city": "Rotterdam",
-            "country": "Netherlands"
-        },
-        {
-            "date": "22/03/2024",
-            "event": "Metal Battle Showdown West",
-            "venue": "Baroeg",
-            "city": "Rotterdam",
-            "country": "Netherlands"
-        },
-        {
-            "date": "17/02/2024",
-            "event": "",
-            "venue": "Metal Front",
-            "city": "Coevorden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "19/04/2024",
-            "event": "",
-            "venue": "Studio Gonz",
-            "city": "Gouda",
-            "country": "Netherlands"
-        },
-        {
-            "date": "20/04/2024",
-            "event": "Record Store Day",
-            "venue": "Velvet",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "01/06/2024",
-            "event": "Voorprogramma Skroetbalg",
-            "venue": "Nobel",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "06/09/2024",
-            "event": "Friday Fight Night 2",
-            "venue": "Patronaat",
-            "city": "Haarlem",
-            "country": "Netherlands"
-        },
-        {
-            "date": "01/10/2024",
-            "event": "Leidens Ontzet",
-            "venue": "Praethuys (buitenplein)",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "02/11/2024",
-            "event": "Maxfest",
-            "venue": "Nobel",
-            "city": "Leiden",
-            "country": "Netherlands"
-        },
-        {
-            "date": "12/04/2025",
-            "event": "Skroetfest",
-            "venue": "Hedon",
-            "city": "Zwolle",
-            "country": "Netherlands",
-            "hide": true
-        },
-        {
-            "date": "28/06/2025",
-            "event": "Retox 2",
-            "venue": "Nobel",
-            "city": "Leiden",
-            "country": "Netherlands",
-            "hide": true
+            "cta": "Watch on youtube now",
+            "description": "Watch as a rugged cowboy crosses paths with a daring woman, embarking on a heart-pounding adventure set against the backdrop of our thunderous sound.",
+            "descriptionTitle": "Saddle up and join the wild ride with our heavy rock and roll anthem, 'Black Leather.'",
+            "imageOptions": [
+                {
+                    "key": "size",
+                    "value": "large"
+                }
+            ],
+            "images": [
+                {
+                    "h": "188",
+                    "hover": "left",
+                    "key": "portfolio",
+                    "url": "/img/black leather/thumb.png",
+                    "w": "336"
+                }
+            ],
+            "project": "Black Leather",
+            "repo": "Public",
+            "url": "https://www.youtube.com/watch?v=vTL10YHh5G0"
         }
     ],
     "social": [
         {
-            "url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT",
-            "icon": "spotify"
+            "icon": "spotify",
+            "url": "https://open.spotify.com/artist/2jwyLoOyrJz0OM0FICfOGT"
         },
         {
-            "url": "https://music.apple.com/us/artist/goldw%C3%B6lff/1701627840",
-            "icon": "apple"
+            "icon": "apple",
+            "url": "https://music.apple.com/us/artist/goldw%C3%B6lff/1701627840"
         },
         {
-            "url": "https://soundcloud.com/goldwolff",
-            "icon": "soundcloud"
+            "icon": "soundcloud",
+            "url": "https://soundcloud.com/goldwolff"
         },
         {
-            "url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ",
-            "icon": "youtube"
+            "icon": "youtube",
+            "url": "https://www.youtube.com/channel/UCOfpKkEdYJOWXULfQiYRvtQ"
         },
         {
-            "url": "https://www.instagram.com/goldwolffband",
-            "icon": "instagram"
+            "icon": "instagram",
+            "url": "https://www.instagram.com/goldwolffband"
         },
         {
-            "url": "https://www.facebook.com/goldwolffband",
-            "icon": "facebook"
+            "icon": "facebook",
+            "url": "https://www.facebook.com/goldwolffband"
         },
         {
-            "url": "mailto:goldwolffband@gmail.com",
-            "icon": "at"
+            "icon": "at",
+            "url": "mailto:goldwolffband@gmail.com"
         },
         {
-            "url": "https://api.whatsapp.com/send?phone=31648120785",
-            "icon": "whatsapp"
+            "icon": "whatsapp",
+            "url": "https://api.whatsapp.com/send?phone=31648120785"
         }
-    ],
-    "about": {
-        "bio": "Embark on a sonic adventure with our 5-piece heavy rock n' roll band. Fronted by the powerful vocals of Jan-Willem Kerpershoek, our lineup features Vincent de Bruijn and Lex van der Zwaal on guitars, Rinus Veldhuijzen holding down the bass, and the rhythmic pulse provided by Robbert Olierook on drums. Together, we deliver tunes that get you fucked and resonate with a rebellious 'Yeehaw,' creating a raw, rowdy, and unforgiving sound.",
-        "contact": "Hit us up on goldwolffband@gmail.com or +31648120785. Or reach out to us on social media or at one of our gigs"
-    }
+    ]
 }
