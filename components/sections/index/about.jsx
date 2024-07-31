@@ -31,7 +31,7 @@ export default function About({ defaultContent }) {
 
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/profiel3.jpg" alt="Band picture" />
+						<img src="/img/Bandphoto2024.png" alt="Band picture" />
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
